@@ -6,8 +6,8 @@ function comparison() {
 userInput = parseInt(userInput)
 
 if (userInput < 0) {
-  document.getElementById('answer').innerHTML = 'Negative'
+      document.getElementById('answer').innerHTML = 'Negative'
 } else {
   document.getElementById('answer').innerHTML = 'Positive'
-}
+  }
 }
